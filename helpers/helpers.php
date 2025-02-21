@@ -1,6 +1,6 @@
 <?php
 
-function dateTime()
+function dateTime($timeString)
 {
-  return 'DateTime';
+  return date($timeString);
 }
