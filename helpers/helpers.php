@@ -2,5 +2,5 @@
 
 function dateTime($timeString)
 {
-  return date($timeString);
+  return DateTime::createFromFormat('Y-m-d H:i:s', $timeString);
 }
