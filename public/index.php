@@ -7,10 +7,6 @@ require __DIR__ . '/../vendor/autoload.php';
 // INTL - Funções de internacionalização
 // some changes here
 
-function dateTime()
-{
-  return 'DateTime';
-}
 
 // Number Format - currency, data, decimal, porcentagem
 
