@@ -3,5 +3,5 @@
 // datetime function
 function dateTime($timeString)
 {
-  return date($timeString);
+  return date(strtotime($timestring));
 }
