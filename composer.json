@@ -1,0 +1,17 @@
+{
+    "name": "xande/intl",
+    "autoload": {
+        "psr-4": {
+            "Xande\\Intl\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexandre Eduardo Cardoso",
+            "email": "alecar2007@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^7.2"
+    }
+}
